@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
         Weather weather = new Weather();
-        String result = weather.getWeatherFor5DaysInCity("SPB");
+        String result = weather.getWeatherFor5DaysInCity("Saint%20Petersburg");
         System.out.println(result);
     }
 }
